@@ -1,0 +1,111 @@
+.personal-block {
+	position: relative;
+	padding: 0 1rem;
+}
+.personal-block .msg {
+	margin: 0.2rem;
+	text-align: center;
+	color: #53030f;
+	font-size: 1.2rem;
+}
+.personal-block .btn-block{
+	display: inline-block;
+	width: 10rem;
+	padding: .5rem 0;
+	text-align: center;
+	background: var(--mct-brown-color);
+	color: #FFFFFF;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.personal-block .fa {
+	color: var(--mct-brown-color);
+	cursor: pointer;
+}
+
+
+.personal-block .items {
+	margin-right: -2%;
+	margin-top: 1rem;
+}
+
+.personal-block .item{
+    float: left;
+	width: 31%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	background: #fff;
+	border: 0;
+	box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	padding: 1.5rem 2rem 0 2rem;
+	min-height: 18rem;
+}
+
+.personal-block .item .it{
+   margin-bottom: 1rem;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+.personal-block .item .nm{
+	margin-bottom: .1rem;
+	color:#cccccc;
+	font-size: 1.2rem;
+}
+
+.personal-block .item .val{
+	color:#533f03;
+	font-size: 1.4rem;
+}
+
+.personal-block .items .btn-block {
+	margin: 0.5rem 0;
+}
+
+.personal-block input {
+	width: 97%;
+}
+.personal-block .clear {
+	clear: both;
+}
+
+.personal-block .more {
+	margin: 2rem auto;
+	display:block;
+}
+
+.personal-block .item-add {
+	margin: 1rem auto 2rem;
+	float: none;
+	min-height: 20rem;
+}
+
+.personal-block .item-add .tit{
+	color:#533f03;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.personal-block .warring{
+	color:#666;
+	font-size:1.1rem;
+	padding-top: 2rem;
+}
+.personal-block .anons {
+	color:#666;
+	font-size:1.4rem;
+	padding: 1rem;
+}
+.grecaptcha-badge {
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	.personal-block .item {
+		float: left;
+		width: 45%;
+	}
+}
